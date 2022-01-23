@@ -1,11 +1,13 @@
 import React from 'react';
 import Carousal from './Carousal';
+
 import ImageCard from './ImageCard';
 
 function Home() {
-  return <div>
+  return <div className='mb-8'>
       <Carousal/>
       <ImageCard/>
+
   </div>;
 }
 
