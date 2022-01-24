@@ -32,7 +32,7 @@ function Carousal() {
         }
     }
     return (
-        <div className='md:h-[600px] sm:h-[300px] h-[300px] w-full relative focus:outline-none select-none'>
+        <div className='md:h-[600px] sm:h-[300px] h-[300px] w-full  relative focus:outline-none select-none'>
             <img className='h-full w-full' src={pictures[number]} alt="" />
 
                 <ChevronLeftIcon onClick={handleLeftClick} className='absolute ml-4 animate-pulse top-1/2 h-20 w-20 text-gray-300 cursor-pointer'/>
