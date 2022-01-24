@@ -19,7 +19,6 @@ function Carousal() {
         if(number === (pictures.length-1)){
             setnumber(0)
         }
-        console.log(number)
      
         
     }

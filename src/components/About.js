@@ -1,9 +1,10 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 function About() {
   return <div>
-      <div className='h-[600px] bg-fixed bg-center  bg-no-repeat bg-cover text-gray-300 flex justify-center items-center' style={{backgroundImage:'url("https://images.pexels.com/photos/747964/pexels-photo-747964.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2")'}}>
-      <h1 className='text-orange-600 font-sans text-7xl drop-shadow-xl'>ABOUT US</h1>
+      <div className='h-screen bg-fixed bg-center  bg-no-repeat bg-cover text-gray-300 flex justify-center items-center' style={{backgroundImage:'url("https://images.pexels.com/photos/36717/amazing-animal-beautiful-beautifull.jpg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2")'}}>
+      <h1 className='text-emerald-500 font-mono text-7xl animate-pulse'>ABOUT US</h1>
   </div>
 
  
@@ -37,8 +38,8 @@ function About() {
 
       </div>
     </div>
-    <div className='h-[600px] bg-fixed bg-center bg-no-repeat bg-cover text-gray-300 flex justify-center items-center' style={{backgroundImage:'url("https://images.pexels.com/photos/1097456/pexels-photo-1097456.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2")'}}>
-      <button  className='bg-blue-300  text-black font-semibold font-serif text-center rounded-xl border-2 border-blue-600 p-3 hover:bg-green-300 hover:scale-105 transform transition duration-300 ease-out hover:border-green-600 active:scale-90 '>Contact Us</button>
+    <div className='h-screen bg-fixed bg-center bg-no-repeat bg-cover text-gray-300 flex justify-center items-center' style={{backgroundImage:'url("https://images.pexels.com/photos/1097456/pexels-photo-1097456.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2")'}}>
+      <Link to='/contact'><button  className='bg-blue-300  text-black font-semibold font-serif text-center rounded-xl border-2 border-blue-600 p-3 hover:bg-green-300 hover:scale-105 transform transition duration-300 ease-out hover:border-green-600 active:scale-90 '>Contact Us</button></Link>
   </div>
   </div>;
   

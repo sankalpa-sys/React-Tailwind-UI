@@ -3,13 +3,13 @@ import React,{useState} from 'react'
 import {Link} from 'react-router-dom'
 
 function Navbar() {
-    const [height, setheight] = useState("10");
+    const [height, setheight] = useState("12");
     const [display, setdisplay] = useState("hidden");
     const handleClick = () => {
-        if(height==="10"){
+        if(height==="12"){
             setheight("60")
         }else{
-            setheight("10")
+            setheight("12")
         }
         if(display==="hidden"){
             setdisplay("flex")
@@ -23,10 +23,10 @@ function Navbar() {
         setdisplay("hidden")
     }
     return (
-       <div className={`h-${height} bg-gray-100  p-2 relative text-gray-700 transform transition duration-300 ease-out`}>
+       <div className={`h-${height} bg-gray-300  p-2 relative text-gray-700 transform transition duration-300 ease-out`}>
            <Link to='/'><h1 className='absolute ml-3 text-xl font-bold hover:text-gray-700'>LOGO</h1></Link>
 
-           <div className={`absolute left-1/2 ${display} flex-col mt-4 text-sm text-center space-y-2`}>
+           <div className={`absolute left-1/2 ${display} flex-col mt-6 text-sm text-center space-y-2`}>
                <Link to='/' className='nav_link' onClick={handleLinkClick}>Home</Link>
                <Link to='/about' className='nav_link' onClick={handleLinkClick}>About</Link>
                <Link to='/services' className='nav_link' onClick={handleLinkClick}>Services</Link>
