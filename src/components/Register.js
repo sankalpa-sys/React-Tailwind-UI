@@ -6,16 +6,16 @@ function Register() {
             <div className=' md:w-1/2 w-full mx-3 overflow-hidden py-10 flex-col space-y-6 bg-gray-100 rounded-lg shadow-2xl shadow-gray-600 flex items-center justify-center px-4 '>
                 <h1 className='mt-4 self-start text-3xl font-extralight'>CREATE AN ACCOUNT</h1>
                 <div className='flex space-x-4 justify-between items-center flex-grow w-full'>
-                    <input type="text" placeholder='name' className='flex-grow font-light outline-none border-1 border-gray-400 h-10 pl-3' />
-                    <input type="text" placeholder='lastname' className=' flex-grow font-light outline-none border-1 border-gray-400 h-10 pl-3' />
+                    <input type="text" placeholder='name' className='w-1/2 font-light outline-none border-1 border-gray-400 h-10 pl-3' />
+                    <input type="text" placeholder='lastname' className=' w-1/2 font-light outline-none border-1 border-gray-400 h-10 pl-3' />
                 </div>
                 <div className='flex space-x-4 justify-between items-center flex-grow w-full'>
-                    <input type="text" placeholder='username' className='flex-grow font-light outline-none border-1 border-gray-400 h-10 pl-3' />
-                    <input type="email" placeholder='email' className='flex-grow font-light outline-none border-1 border-gray-400 h-10 pl-3' />
+                    <input type="text" placeholder='username' className='w-1/2 font-light outline-none border-1 border-gray-400 h-10 pl-3' />
+                    <input type="email" placeholder='email' className='w-1/2 font-light outline-none border-1 border-gray-400 h-10 pl-3' />
                 </div>
                 <div className='flex space-x-4 justify-between items-center flex-grow w-full'>
-                    <input type="password" placeholder='password' className='flex-grow font-light outline-none border-1 border-gray-400 h-10 pl-3' />
-                    <input type="password" placeholder='confirm password' className='flex-grow font-light outline-none border-1 border-gray-400 h-10 pl-3' />
+                    <input type="password" placeholder='password' className='w-1/2 font-light outline-none border-1 border-gray-400 h-10 pl-3' />
+                    <input type="password" placeholder='confirm password' className='w-1/2 font-light outline-none border-1 border-gray-400 h-10 pl-3' />
                 </div>
                 <p className='text-sm text-start'>By creating an account, I consent to the processing of my personal data in accordance with the <b>PRIVACY POLICY</b> </p>
 
