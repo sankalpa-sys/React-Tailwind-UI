@@ -2,6 +2,8 @@ import React,{useState, useEffect} from 'react';
 import {shuffle} from 'lodash'
 function Services() {
   const [color, setcolor] = useState(null);
+
+useEffect(() => {
   const colors = [
     'from-indigo-500',
     'from-blue-500',
@@ -14,10 +16,21 @@ function Services() {
     "from-cyan-500",
     "from-emerald-500"
 ]
-useEffect(() => {
   setcolor(shuffle(colors).pop())
   
 }, []);
+const colors = [
+  'from-indigo-500',
+  'from-blue-500',
+  'from-green-500',
+  'from-red-500',
+  'from-yellow-500',
+  'from-pink-500',
+  'from-purple-500',
+  "from-teal-500",
+  "from-cyan-500",
+  "from-emerald-500"
+]
 
 const handleClick = () => {
   setcolor(shuffle(colors).pop())
