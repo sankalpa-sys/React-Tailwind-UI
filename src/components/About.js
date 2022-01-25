@@ -33,7 +33,7 @@ function About() {
     <hr />
     <div className="row featurette  d-flex justify-items-center align-items-center mt-4 pl-4 text-center mb-6">
       <div className="col-md-7 px-4 mb-4">
-        <h2 className="featurette-heading text-bold text-yellow-600 text-2xl">INTRODUCTION </h2>
+        <h2 className="featurette-heading text-bold text-yellow-600 text-2xl">Why are we famous?</h2>
         <p className="lead text-base mt-3 text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita quod quidem nobis voluptatibus modi, incidunt aliquam, deserunt iusto quis saepe, repellat dignissimos magni culpa officiis ipsam ratione quo vel quas?</p>
       </div>
       <div className="col-md-5">
