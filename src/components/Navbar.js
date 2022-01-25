@@ -19,33 +19,36 @@ function Navbar() {
     }
 
     const handleLinkClick = () => {
-        setheight("10")
+        setheight("12")
         setdisplay("hidden")
     }
-    return (
-       <div className={`h-${height} bg-gray-300 md:flex items-center justify-between  p-2 relative text-gray-700 transform transition duration-300 ease-out`}>
-           <Link to='/'><h1 className='absolute ml-3 text-xl md:static font-bold hover:text-gray-700'>LOGO</h1></Link>
 
-           <div className={`absolute left-1/2 ${display} flex-col mt-6 text-sm text-center space-y-2`}>
-               <Link to='/' className='nav_link' onClick={handleLinkClick}>Home</Link>
-               <Link to='/about' className='nav_link' onClick={handleLinkClick}>About</Link>
-               <Link to='/services' className='nav_link' onClick={handleLinkClick}>Services</Link>
-               <Link to='/contact' className='nav_link' onClick={handleLinkClick}>Contacts</Link>
-               <Link to='/register' className='nav_link' onClick={handleLinkClick}>Register</Link>
-               <Link to='/login' className='nav_link' onClick={handleLinkClick}>Login</Link>
+
+    
+    return (
+       <div className={`h-${height} md:h-12 bg-gray-900 md:flex items-center justify-between  p-2 relative text-gray-300 transform transition duration-300 ease-out`}>
+           <Link to='/'><h1 className='absolute ml-3 text-xl md:static font-bold hover:text-gray-300'>LOGO</h1></Link>
+
+           <div className={`absolute left-1/2 ${display} md:hidden flex-col mt-6 text-sm text-center space-y-2`}>
+               <Link to='/' className='nav_link' onClick={handleLinkClick}  >Home</Link>
+               <Link to='/about' className='nav_link' onClick={handleLinkClick} >About</Link>
+               <Link to='/services' className='nav_link' onClick={handleLinkClick} >Services</Link>
+               <Link to='/contact' className='nav_link' onClick={handleLinkClick} >Contacts</Link>
+               <Link to='/register' className='nav_link' onClick={handleLinkClick} >Register</Link>
+               <Link to='/login' className='nav_link' onClick={handleLinkClick} >Login</Link>
            </div>
 
            <MenuIcon className='h-8 w-8 absolute right-0 cursor-pointer mb-2 select-none mr-3 md:hidden' onClick={handleClick}/>
 
-           <div className='hidden md:flex space-x-3 justify-around items-center'>
-                <Link to='/' className='nav_link' onClick={handleLinkClick}>Home</Link>
-               <Link to='/about' className='nav_link' onClick={handleLinkClick}>About</Link>
-               <Link to='/services' className='nav_link' onClick={handleLinkClick}>Services</Link>
-               <Link to='/contact' className='nav_link' onClick={handleLinkClick}>Contacts</Link>
+           <div className='hidden md:flex space-x-4 justify-around items-center'>
+                <Link to='/' className='nav_link' >Home</Link>
+               <Link to='/about' className='nav_link' >About</Link>
+               <Link to='/services' className='nav_link' >Services</Link>
+               <Link to='/contact' className='nav_link'>Contacts</Link>
            </div>
-           <div className='hidden md:flex justify-around items-center space-x-3 mr-4'>
-           <Link to='/register' className='nav_link' onClick={handleLinkClick}>Register</Link>
-               <Link to='/login' className='nav_link' onClick={handleLinkClick}>Login</Link>
+           <div className='hidden md:flex justify-around items-center space-x-4 mr-4'>
+           <Link to='/register' className='nav_link' >Register</Link>
+               <Link to='/login' className='nav_link' >Login</Link>
            </div>
        </div>
     )

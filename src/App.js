@@ -9,6 +9,7 @@ import Contact from "./components/Contact";
 import Register from "./components/Register";
 import Login from "./components/Login";
 import Services from "./components/Services";
+
 function App() {
   return (
     <div className="">
@@ -23,6 +24,7 @@ function App() {
           <Route exact path='/services' element={<Services/>}/>
 
         </Routes>
+
       </Router>
     </div>
   );

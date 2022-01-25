@@ -2,7 +2,7 @@ import React from 'react'
 
 function ImageCard() {
     return (
-        <div className='h-60 w-full mt-10 flex space-x-4 overflow-scroll flex-grow mb-10 mx-2 items-center scrollbar-hide'>
+        <div className='h-60 w-full mt-10 flex space-x-4 overflow-scroll flex-grow  mx-2 items-center scrollbar-hide'>
             <img src="https://cdn.pixabay.com/photo/2017/11/03/18/27/wintry-2915190__480.png" className='h-full w-96' alt="" />
             <img src="https://cdn.pixabay.com/photo/2021/12/12/17/40/mountains-6865680__480.jpg" className='h-full w-full' alt="" />
             <img src="https://cdn.pixabay.com/photo/2018/03/02/19/21/nature-3194001__480.jpg" className='h-full w-full' alt="" />
