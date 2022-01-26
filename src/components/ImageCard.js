@@ -2,7 +2,7 @@ import React from 'react'
 
 function ImageCard() {
     return (
-        <div className='md:mt-24 mt-8 flex flex-col justify-center items-center'>
+        <div className='md:mt-24 mt-8 flex flex-col justify-center items-center select-none'>
             <h1 className=' text-2xl md:text-7xl text-center font-mono underline text-yellow-600'>PHOTO GALLERY</h1>
             <div className='h-60 w-full mt-10 flex space-x-4 overflow-scroll flex-grow  mx-2 items-center scrollbar-hide'>
             <img src="https://images.pexels.com/photos/2693529/pexels-photo-2693529.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500" className='h-full w-full' alt="" />

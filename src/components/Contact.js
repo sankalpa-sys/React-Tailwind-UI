@@ -28,7 +28,7 @@ function Contact() {
               story and need to get in touch?
             </p>
 
-            <button className="border-1 card_button border-cyan-500 w-3/4 rounded-full p-1 my-6 self-center font-semibold text-cyan-500">Visit Press Page</button>
+            <button className="border-1 select-none card_button border-cyan-500 w-3/4 rounded-full p-1 my-6 self-center font-semibold text-cyan-500">Visit Press Page</button>
           </div>
         </div>
 
@@ -46,7 +46,7 @@ function Contact() {
               Our support team is spread across the globe to give you answers fast.
             </p>
 
-            <button className="border-1 card_button border-emerald-500 w-3/4 rounded-full p-1 mt-6 mb-2 self-center font-semibold text-emerald-500">Visit Support Page</button>
+            <button className="border-1 select-none card_button border-emerald-500 w-3/4 rounded-full p-1 mt-6 mb-2 self-center font-semibold text-emerald-500">Visit Support Page</button>
             <p className="text-emerald-500 text-xs font-semibold self-center cursor-pointer hover:text-emerald-600">SUBMIT A REQUEST</p>
           </div>
         </div>
@@ -65,7 +65,7 @@ function Contact() {
               Get is touch with our sales team to see how we can work together.
             </p>
 
-            <button className="card_button border-1 border-blue-600 w-3/4 rounded-full p-1 my-6 self-center font-semibold text-blue-600">Contact Sales</button>
+            <button className=" select-none card_button border-1 border-blue-600 w-3/4 rounded-full p-1 my-6 self-center font-semibold text-blue-600">Contact Sales</button>
           </div>
         </div>
       </div>

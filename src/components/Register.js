@@ -91,7 +91,7 @@ function Register() {
               required="required"
               name="email"
               onChange={handleChange}
-              className="w-1/2 font-light outline-none border-1 border-gray-400 h-10 pl-3"
+              className="w-1/2 text-xs md:text-base font-light outline-none border-1 border-gray-400 h-10 pl-3"
             />
           </div>
           <div className="flex space-x-4 justify-between items-center flex-grow w-full mb-4">
@@ -117,7 +117,7 @@ function Register() {
             data in accordance with the <b>PRIVACY POLICY</b>{" "}
           </p>
 
-          <button className="self-start h-10 w-20 bg-teal-600 text-white hover:bg-teal-700 active:scale-90 transform transition duration-150 ease-in">
+          <button className="self-start outline-green-700 h-10 w-20 bg-teal-600 text-white hover:bg-teal-700 active:scale-90 transform transition duration-150 ease-in">
             CREATE
           </button>
         </form>
