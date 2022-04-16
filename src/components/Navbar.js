@@ -36,6 +36,7 @@ function Navbar() {
                <Link to='/contact' className='nav_link' onClick={handleLinkClick} >Contacts</Link>
                <Link to='/register' className='nav_link' onClick={handleLinkClick} >Register</Link>
                <Link to='/login' className='nav_link' onClick={handleLinkClick} >Login</Link>
+               <Link to='/pricing' className='nav_link' onClick={handleLinkClick} >Pricing</Link>
            </div>
 
            <MenuIcon className='h-8 w-8 absolute right-0 cursor-pointer mb-2 select-none mr-3 md:hidden' onClick={handleClick}/>
@@ -45,6 +46,7 @@ function Navbar() {
                <Link to='/about' className='nav_link select-none' >About</Link>
                <Link to='/services' className='nav_link select-none' >Services</Link>
                <Link to='/contact' className='nav_link select-none'>Contacts</Link>
+               <Link to='/pricing' className='nav_link select-none'>Pricing</Link>
            </div>
            <div className='hidden md:flex justify-around items-center space-x-4 mr-4'>
            <Link to='/register' className='nav_link select-none' >Register</Link>

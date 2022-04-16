@@ -1,7 +1,10 @@
 import React from "react";
+import Navbar from "./Navbar";
 
 function Contact() {
   return (
+    <>
+    <Navbar/>
     <div className="mt-10 mb-32 mx-12 ">
       {/* Heading */}
 
@@ -70,6 +73,7 @@ function Contact() {
         </div>
       </div>
     </div>
+    </>
   );
 }
 

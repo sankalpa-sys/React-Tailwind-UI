@@ -9,12 +9,13 @@ import Contact from "./components/Contact";
 import Register from "./components/Register";
 import Login from "./components/Login";
 import Services from "./components/Services";
+import Pricing from "./components/Pricing";
 
 function App() {
   return (
     <div className="">
       <Router>
-        <Navbar />
+        
         <Routes>
           <Route exact path='/' element={<Home/>}/>
           <Route exact path='/about' element={<About/>}/>
@@ -22,6 +23,7 @@ function App() {
           <Route exact path='/register' element={<Register/>}/>
           <Route exact path='/login' element={<Login/>}/>
           <Route exact path='/services' element={<Services/>}/>
+          <Route exact path='/pricing' element={<Pricing/>}/>
 
         </Routes>
 

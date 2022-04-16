@@ -1,9 +1,11 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import Navbar from './Navbar';
 
 
 function About() {
   return <div>
+    <Navbar />
       <div className='h-screen bg-fixed bg-center  bg-no-repeat bg-cover text-gray-300 flex justify-center items-center' style={{backgroundImage:'url("https://images.pexels.com/photos/36717/amazing-animal-beautiful-beautifull.jpg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2")'}}>
       <h1 className='text-cyan-500 font-mono text-7xl animate-pulse'>ABOUT US</h1>
   </div>
