@@ -1,8 +1,13 @@
-import { CheckIcon } from "@heroicons/react/outline";
+import { CheckIcon} from "@heroicons/react/outline";
 import React from "react";
+import { useNavigate } from "react-router-dom";
 import data from "../data";
 function Pricing() {
-    
+ const navigate = useNavigate()
+  const handleClick = () => {
+    navigate('/khalti')
+  }
+  
   return (
     <div className="bg-[url('https://tailwindui.com/img/beams-bottom-2.jpg')] bg-bottom h-screen flex text-white justify-center items-center">
       <main className="relative h-3/4 w-[90%] md:w-[30%] border-t border-x bg-gradient-to-b from-gray-800 to-gray-900  rounded-xl shadow-md shadow-gray-700 border-cyan-400 pt-10 md:pt-14">
@@ -27,9 +32,9 @@ function Pricing() {
         </section>
 
         <footer className="flex flex-col justify-center items-center mt-10">
-            <button className="bg-cyan-400 font-bold text-gray-800 h-12 text-sm px-12 rounded-lg">Get this package</button>
+            <button onClick={handleClick} className="bg-cyan-400 hover:bg-cyan-500 transition-ll duration-300 active:scale-95 transform ease-out font-bold text-gray-800 h-12 text-sm px-12 rounded-lg">Get this Package</button>
 
-            <div className="flex text-sm bg-gray-700 mt-6 rounded-full space-x-1 px-3 py-1">
+            <div className="flex text-sm  cursor-pointer bg-gray-700 mt-6 rounded-full space-x-1 px-3 py-1">
                 <p className="text-gray-200">Have a team?</p>
                 <p className="text-cyan-400">View team pricing &rarr;</p>
             </div>

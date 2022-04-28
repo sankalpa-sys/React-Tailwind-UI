@@ -26,7 +26,7 @@ function Navbar() {
 
     
     return (
-       <div className={`h-${height} select-none md:h-12 bg-gray-900 md:flex items-center justify-between  p-2 relative text-gray-300 transform transition duration-300 ease-out`}>
+       <div className={`h-${height} select-none md:h-12  bg-gray-900 md:flex items-center justify-between  p-2 relative text-gray-300 transform transition duration-300 ease-out`}>
            <Link to='/'><h1 className='absolute ml-3 text-xl md:static font-bold hover:text-gray-300'>LOGO</h1></Link>
 
            <div className={`absolute left-1/2 ${display} md:hidden flex-col mt-6 text-sm text-center space-y-2`}>

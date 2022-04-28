@@ -1,7 +1,3 @@
-
-
-
-
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Home from "./components/Home";
 import About from "./components/About";
@@ -10,6 +6,7 @@ import Register from "./components/Register";
 import Login from "./components/Login";
 import Services from "./components/Services";
 import Pricing from "./components/Pricing";
+import Khalti from "./components/Khalti";
 
 function App() {
   return (
@@ -24,6 +21,8 @@ function App() {
           <Route exact path='/login' element={<Login/>}/>
           <Route exact path='/services' element={<Services/>}/>
           <Route exact path='/pricing' element={<Pricing/>}/>
+          <Route exact path='/khalti' element={<Khalti/>}/>
+
 
         </Routes>
 
