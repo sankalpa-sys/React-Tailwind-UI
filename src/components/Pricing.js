@@ -34,7 +34,7 @@ function Pricing() {
         <footer className="flex flex-col justify-center items-center mt-10">
             <button onClick={handleClick} className="bg-cyan-400 hover:bg-cyan-500 transition-ll duration-300 active:scale-95 transform ease-out font-bold text-gray-800 h-12 text-sm px-12 rounded-lg">Get this Package</button>
 
-            <div className="flex text-sm  cursor-pointer bg-gray-700 mt-6 rounded-full space-x-1 px-3 py-1">
+            <div onClick={()=>navigate('/iphone')} className="flex text-sm  cursor-pointer bg-gray-700 mt-6 rounded-full space-x-1 px-3 py-1">
                 <p className="text-gray-200">Have a team?</p>
                 <p className="text-cyan-400">View team pricing &rarr;</p>
             </div>
