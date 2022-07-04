@@ -9,6 +9,7 @@ import Pricing from "./components/Pricing";
 import Khalti from "./components/Khalti";
 import Profile from "./components/Profile";
 import Iphone from "./components/Iphone";
+import Fan from "./components/Fan";
 
 function App() {
   return (
@@ -26,6 +27,7 @@ function App() {
           <Route exact path='/khalti' element={<Khalti/>}/>
           <Route exact path='/profile' element={<Profile/>}/>
           <Route exact path='/iphone' element={<Iphone/>}/>
+          <Route exact path='/fan' element={<Fan/>}/>
 
 
         </Routes>

@@ -11,7 +11,7 @@ function Pricing() {
   return (
     <div className="bg-[url('https://tailwindui.com/img/beams-bottom-2.jpg')] bg-bottom h-screen flex text-white justify-center items-center">
       <main className="relative h-3/4 w-[90%] md:w-[30%] border-t border-x bg-gradient-to-b from-gray-800 to-gray-900  rounded-xl shadow-md shadow-gray-700 border-cyan-400 pt-10 md:pt-14">
-        <span className="bg-cyan-400 text-gray-700  rounded-full absolute -top-5 h-8 flex items-center justify-center w-32 text-xs md:left-[35%] left-[33%] font-bold">Sankalpa Neupane</span>
+        <span onClick = {()=>navigate("/fan")} className="bg-cyan-400 text-gray-700  rounded-full absolute -top-5 h-8 flex items-center justify-center w-32 text-xs md:left-[35%] cursor-pointer left-[33%] font-bold">Sankalpa Neupane</span>
         <section className="flex  flex-col justify-center items-center space-y-3">
           <h1 className="text-sm tracking-wide font-bold">COMPLETE PACKAGE</h1>
           <div className="flex justify-center items-center space-x-2">
