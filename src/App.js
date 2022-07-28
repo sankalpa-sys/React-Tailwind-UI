@@ -10,6 +10,7 @@ import Khalti from "./components/Khalti";
 import Profile from "./components/Profile";
 import Iphone from "./components/Iphone";
 import Fan from "./components/Fan";
+import Video from "./components/Video";
 
 function App() {
   return (
@@ -28,6 +29,7 @@ function App() {
           <Route exact path='/profile' element={<Profile/>}/>
           <Route exact path='/iphone' element={<Iphone/>}/>
           <Route exact path='/fan' element={<Fan/>}/>
+          <Route exact path='/video' element={<Video/>}/>
 
 
         </Routes>

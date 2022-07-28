@@ -52,7 +52,7 @@ function Khalti() {
              <label htmlFor="pin" className='font-bold text-sm '> Khalti PIN</label>
              <input className='h-10 border rounded-md px-3 outline-none focus:ring-1 ring-cyan-500 focus:border-none' placeholder='Enter Khalti pin' type="text" id='pin' name='pin' />
            </div>
-           <button className='text-white font-bold text-sm bg-purple-800 w-32 h-10 rounded-md mx-auto'>Pay $279</button>
+           <button onClick={()=>navigate('/video')} className='text-white font-bold text-sm bg-purple-800 w-32 h-10 rounded-md mx-auto'>Pay $279</button>
 
            <div className='w-full flex flex-col justify-center items-center space-y-3 mt-3'>
                <h1 className=' text-gray-500 cursor-pointer'>Forgot your Khalti PIN?</h1>
