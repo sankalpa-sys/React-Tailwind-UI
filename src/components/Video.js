@@ -65,8 +65,8 @@ function Video() {
           Next
         </button>
 
-        <div className="h-40 w-48  z-50 absolute opacity-70 lg:left-[85%] left-[28%] top-[72%] lg:top-36">
-        {start?  <img src={Dancing} className='h-full rounded-full w-full object-cover' alt="" />:(
+        <div className="h-40 w-[170px]  z-50 absolute opacity-70 lg:left-[85%] left-[28%] top-[80%] lg:top-36">
+        {start?  <img src={Dancing} className='h-full animate-bounce rounded-full w-full object-cover' alt="" />:(
             <img src={Sad} className='h-full w-full rounded-full object-cover' alt="" />
         )}
           

@@ -18,7 +18,7 @@ function Profile() {
           </div>
           <div className={hover === "hidden"?`mt-20 w-full flex flex-col justify-center items-center space-y-2`:"mt-10 w-full flex flex-col justify-center items-center space-y-2"}>
             <h1 className='font-semibold text-sm'>Sankalpa Neupane</h1>
-            <p className='text-xs text-gray-500 text-lighter'>Senior UX/UI Designer</p>
+            <p className='text-xs text-gray-500 text-lighter'>Frontend Developer</p>
           </div>
 
           <section className={`text-xs  ${hover} transition-all duration-300 w-full justify-around mt-4`}>

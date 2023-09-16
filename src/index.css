@@ -35,3 +35,7 @@ code {
     @apply hover:opacity-70 transform transition duration-300 ease-out active:scale-95
   }
 }
+
+.meth-input{
+  @apply border border-gray-500 outline-none px-8 py-2 rounded-md;
+}

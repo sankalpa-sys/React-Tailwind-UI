@@ -11,6 +11,7 @@ import Profile from "./components/Profile";
 import Iphone from "./components/Iphone";
 import Fan from "./components/Fan";
 import Video from "./components/Video";
+import BreakingBad from "./components/BreakingBad";
 
 function App() {
   return (
@@ -30,6 +31,7 @@ function App() {
           <Route exact path='/iphone' element={<Iphone/>}/>
           <Route exact path='/fan' element={<Fan/>}/>
           <Route exact path='/video' element={<Video/>}/>
+          <Route exact path='/meth' element={<BreakingBad/>}/>
 
 
         </Routes>

@@ -49,6 +49,7 @@ function Navbar() {
                <Link to='/contact' className='nav_link select-none'>Contacts</Link>
                <Link to='/pricing' className='nav_link select-none'>Pricing</Link>
                <Link to='/profile' className='nav_link select-none'>Profile</Link>
+               <Link to='/meth' className='nav_link select-none'>Meth</Link>
            </div>
            <div className='hidden md:flex justify-around items-center space-x-4 mr-4'>
            <Link to='/register' className='nav_link select-none' >Register</Link>
