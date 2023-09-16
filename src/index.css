@@ -36,6 +36,6 @@ code {
   }
 }
 
-.meth-input{
+.meth_input{
   @apply border border-gray-500 outline-none px-8 py-2 rounded-md;
 }

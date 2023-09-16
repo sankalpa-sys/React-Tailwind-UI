@@ -1,4 +1,4 @@
-export default [
+export const elements =  [
     'Ac',
     'Al',
     'Am',

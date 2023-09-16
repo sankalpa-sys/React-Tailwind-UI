@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react'
-import elements from '../configs/elements'
+import  elements  from '../configs/elements'
 import { useState } from 'react'
 function BreakingBad() {
     const [firstName, setFirstName] = useState("")
@@ -52,8 +52,8 @@ function BreakingBad() {
         <p className='font-bold m-4 text-teal-600'>Lets play Breaking Bad</p>
     <div className='mt-10 ml-10'>
         <form className='space-x-4 flex items-center justify-center'>
-        <input className='meth-input' maxLength={10}  type="text" placeholder='First Name' onChange={firstNameChangeHandler} value={firstName}/>
-        <input className='meth-input' maxLength={10} type="text" placeholder='Last Name' onChange={lastNameChangehandler} value={lastName} />
+        <input className='meth_input' maxLength={10}  type="text" placeholder='First Name' onChange={firstNameChangeHandler} value={firstName}/>
+        <input className='meth_input' maxLength={10} type="text" placeholder='Last Name' onChange={lastNameChangehandler} value={lastName} />
     
     </form>
 
