@@ -1,4 +1,4 @@
-export const elements =  [
+const elements =  [
     'Ac',
     'Al',
     'Am',
@@ -118,3 +118,5 @@ export const elements =  [
     'Zn',
     'Zr'
   ]
+
+  export default elements
