@@ -31,6 +31,7 @@ function BreakingBad() {
                 setFirstNameStarting(element)
 
             }
+            return undefined;
         })
    },[firstName])
 
@@ -45,6 +46,7 @@ function BreakingBad() {
                 setLastNameStarting(element)
 
             }
+            return undefined;
         })
    },[lastName])
   return (
